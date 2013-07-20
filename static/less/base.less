@@ -1,0 +1,19 @@
+@bc:#79c3d2;
+
+@s:5px;
+@m:10px;
+@l:15px;
+@x:20px;
+
+.shadowbox(@bc,@h){
+	border-color:transparent;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+	height: @h
+}
+
+body{
+	background-color: @bc;
+}
+
+@import "moudle/navbar.less";
+@import "moudle/banner.less";
